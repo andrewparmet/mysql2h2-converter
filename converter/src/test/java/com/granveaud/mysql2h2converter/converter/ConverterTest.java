@@ -131,6 +131,10 @@ public class ConverterTest {
         loadScript("create-table-with-constraint-on-delete.sql");
     }
 
+    public void testScriptExportTriggerWithDelimiter() throws Exception {
+        loadScript("export-trigger-with-delimiter.sql");
+    }
+
     private void loadScript(String s) throws Exception {
         long time0 = System.currentTimeMillis();
 
