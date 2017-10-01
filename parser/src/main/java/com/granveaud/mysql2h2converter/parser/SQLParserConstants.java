@@ -15,219 +15,219 @@ public interface SQLParserConstants {
   /** RegularExpression Id. */
   int S_MULTI_LINE_COMMENT = 6;
   /** RegularExpression Id. */
-  int TODO = 7;
+  int TODO = 8;
   /** RegularExpression Id. */
-  int USE = 8;
+  int USE = 9;
   /** RegularExpression Id. */
-  int CREATE = 9;
+  int CREATE = 10;
   /** RegularExpression Id. */
-  int DROP = 10;
+  int DROP = 11;
   /** RegularExpression Id. */
-  int DATABASE = 11;
+  int DATABASE = 12;
   /** RegularExpression Id. */
-  int IF = 12;
+  int IF = 13;
   /** RegularExpression Id. */
-  int NOT = 13;
+  int NOT = 14;
   /** RegularExpression Id. */
-  int EXISTS = 14;
+  int EXISTS = 15;
   /** RegularExpression Id. */
-  int TEMPORARY = 15;
+  int TEMPORARY = 16;
   /** RegularExpression Id. */
-  int TABLE = 16;
+  int TABLE = 17;
   /** RegularExpression Id. */
-  int NULL = 17;
+  int NULL = 18;
   /** RegularExpression Id. */
-  int K_DEFAULT = 18;
+  int K_DEFAULT = 19;
   /** RegularExpression Id. */
-  int AUTO_INCREMENT = 19;
+  int AUTO_INCREMENT = 20;
   /** RegularExpression Id. */
-  int PRIMARY = 20;
+  int PRIMARY = 21;
   /** RegularExpression Id. */
-  int KEY = 21;
+  int KEY = 22;
   /** RegularExpression Id. */
-  int COMMENT = 22;
+  int COMMENT = 23;
   /** RegularExpression Id. */
-  int ASC = 23;
+  int ASC = 24;
   /** RegularExpression Id. */
-  int DESC = 24;
+  int DESC = 25;
   /** RegularExpression Id. */
-  int BIT = 25;
+  int BIT = 26;
   /** RegularExpression Id. */
-  int TINYINT = 26;
+  int TINYINT = 27;
   /** RegularExpression Id. */
-  int UNSIGNED = 27;
+  int UNSIGNED = 28;
   /** RegularExpression Id. */
-  int ZEROFILL = 28;
+  int ZEROFILL = 29;
   /** RegularExpression Id. */
-  int SMALLINT = 29;
+  int SMALLINT = 30;
   /** RegularExpression Id. */
-  int MEDIUMINT = 30;
+  int MEDIUMINT = 31;
   /** RegularExpression Id. */
-  int INT = 31;
+  int INT = 32;
   /** RegularExpression Id. */
-  int INTEGER = 32;
+  int INTEGER = 33;
   /** RegularExpression Id. */
-  int BIGINT = 33;
+  int BIGINT = 34;
   /** RegularExpression Id. */
-  int REAL = 34;
+  int REAL = 35;
   /** RegularExpression Id. */
-  int DOUBLE = 35;
+  int DOUBLE = 36;
   /** RegularExpression Id. */
-  int DECIMAL = 36;
+  int DECIMAL = 37;
   /** RegularExpression Id. */
-  int FLOAT = 37;
+  int FLOAT = 38;
   /** RegularExpression Id. */
-  int NUMERIC = 38;
+  int NUMERIC = 39;
   /** RegularExpression Id. */
-  int DATE = 39;
+  int DATE = 40;
   /** RegularExpression Id. */
-  int DATETIME = 40;
+  int DATETIME = 41;
   /** RegularExpression Id. */
-  int TIME = 41;
+  int TIME = 42;
   /** RegularExpression Id. */
-  int TIMESTAMP = 42;
+  int TIMESTAMP = 43;
   /** RegularExpression Id. */
-  int CHAR = 43;
+  int CHAR = 44;
   /** RegularExpression Id. */
-  int BINARY = 44;
+  int BINARY = 45;
   /** RegularExpression Id. */
-  int ASCII = 45;
+  int ASCII = 46;
   /** RegularExpression Id. */
-  int UNICODE = 46;
+  int UNICODE = 47;
   /** RegularExpression Id. */
-  int VARCHAR = 47;
+  int VARCHAR = 48;
   /** RegularExpression Id. */
-  int TINYBLOB = 48;
+  int TINYBLOB = 49;
   /** RegularExpression Id. */
-  int BLOB = 49;
+  int BLOB = 50;
   /** RegularExpression Id. */
-  int MEDIUMBLOB = 50;
+  int MEDIUMBLOB = 51;
   /** RegularExpression Id. */
-  int LONGBLOB = 51;
+  int LONGBLOB = 52;
   /** RegularExpression Id. */
-  int TINYTEXT = 52;
+  int TINYTEXT = 53;
   /** RegularExpression Id. */
-  int TEXT = 53;
+  int TEXT = 54;
   /** RegularExpression Id. */
-  int MEDIUMTEXT = 54;
+  int MEDIUMTEXT = 55;
   /** RegularExpression Id. */
-  int LONGTEXT = 55;
+  int LONGTEXT = 56;
   /** RegularExpression Id. */
-  int ENUM = 56;
+  int ENUM = 57;
   /** RegularExpression Id. */
-  int SET = 57;
+  int SET = 58;
   /** RegularExpression Id. */
-  int CONSTRAINT = 58;
+  int CONSTRAINT = 59;
   /** RegularExpression Id. */
-  int USING = 59;
+  int USING = 60;
   /** RegularExpression Id. */
-  int INDEX = 60;
+  int INDEX = 61;
   /** RegularExpression Id. */
-  int UNIQUE = 61;
+  int UNIQUE = 62;
   /** RegularExpression Id. */
-  int FULLTEXT = 62;
+  int FULLTEXT = 63;
   /** RegularExpression Id. */
-  int SPATIAL = 63;
+  int SPATIAL = 64;
   /** RegularExpression Id. */
-  int FOREIGN = 64;
+  int FOREIGN = 65;
   /** RegularExpression Id. */
-  int CHECK = 65;
+  int CHECK = 66;
   /** RegularExpression Id. */
-  int REFERENCES = 66;
+  int REFERENCES = 67;
   /** RegularExpression Id. */
-  int MATCH = 67;
+  int MATCH = 68;
   /** RegularExpression Id. */
-  int FULL = 68;
+  int FULL = 69;
   /** RegularExpression Id. */
-  int PARTIAL = 69;
+  int PARTIAL = 70;
   /** RegularExpression Id. */
-  int ON = 70;
+  int ON = 71;
   /** RegularExpression Id. */
-  int DELETE = 71;
+  int DELETE = 72;
   /** RegularExpression Id. */
-  int RESTRICT = 72;
+  int RESTRICT = 73;
   /** RegularExpression Id. */
-  int CASCADE = 73;
+  int CASCADE = 74;
   /** RegularExpression Id. */
-  int NO = 74;
+  int NO = 75;
   /** RegularExpression Id. */
-  int ACTION = 75;
+  int ACTION = 76;
   /** RegularExpression Id. */
-  int UPDATE = 76;
+  int UPDATE = 77;
   /** RegularExpression Id. */
-  int INSERT = 77;
+  int INSERT = 78;
   /** RegularExpression Id. */
-  int INTO = 78;
+  int INTO = 79;
   /** RegularExpression Id. */
-  int VALUES = 79;
+  int VALUES = 80;
   /** RegularExpression Id. */
-  int LOW_PRIORITY = 80;
+  int LOW_PRIORITY = 81;
   /** RegularExpression Id. */
-  int HIGH_PRIORITY = 81;
+  int HIGH_PRIORITY = 82;
   /** RegularExpression Id. */
-  int DELAYED = 82;
+  int DELAYED = 83;
   /** RegularExpression Id. */
-  int IGNORE = 83;
+  int IGNORE = 84;
   /** RegularExpression Id. */
-  int VALUE = 84;
+  int VALUE = 85;
   /** RegularExpression Id. */
-  int SELECT = 85;
+  int SELECT = 86;
   /** RegularExpression Id. */
-  int DUPLICATE = 86;
+  int DUPLICATE = 87;
   /** RegularExpression Id. */
-  int CURRENT_TIMESTAMP = 87;
+  int CURRENT_TIMESTAMP = 88;
   /** RegularExpression Id. */
-  int CHARACTER = 88;
+  int CHARACTER = 89;
   /** RegularExpression Id. */
-  int COLLATE = 89;
+  int COLLATE = 90;
   /** RegularExpression Id. */
-  int ALTER = 90;
+  int ALTER = 91;
   /** RegularExpression Id. */
-  int ADD = 91;
+  int ADD = 92;
   /** RegularExpression Id. */
-  int LOCK = 92;
+  int LOCK = 93;
   /** RegularExpression Id. */
-  int TABLES = 93;
+  int TABLES = 94;
   /** RegularExpression Id. */
-  int AS = 94;
+  int AS = 95;
   /** RegularExpression Id. */
-  int READ = 95;
+  int READ = 96;
   /** RegularExpression Id. */
-  int LOCAL = 96;
+  int LOCAL = 97;
   /** RegularExpression Id. */
-  int WRITE = 97;
+  int WRITE = 98;
   /** RegularExpression Id. */
-  int UNLOCK = 98;
+  int UNLOCK = 99;
   /** RegularExpression Id. */
-  int START = 99;
+  int START = 100;
   /** RegularExpression Id. */
-  int TRANSACTION = 100;
+  int TRANSACTION = 101;
   /** RegularExpression Id. */
-  int COMMIT = 101;
+  int COMMIT = 102;
   /** RegularExpression Id. */
-  int S_IDENTIFIER = 102;
+  int S_IDENTIFIER = 103;
   /** RegularExpression Id. */
-  int S_QUOTED_IDENTIFIER = 103;
+  int S_QUOTED_IDENTIFIER = 104;
   /** RegularExpression Id. */
-  int S_LETTER = 104;
+  int S_LETTER = 105;
   /** RegularExpression Id. */
-  int S_DIGIT = 105;
+  int S_DIGIT = 106;
   /** RegularExpression Id. */
-  int S_SPECIAL_CHARS = 106;
+  int S_SPECIAL_CHARS = 107;
   /** RegularExpression Id. */
-  int S_INTEGER = 107;
+  int S_INTEGER = 108;
   /** RegularExpression Id. */
-  int S_DOUBLE = 108;
+  int S_DOUBLE = 109;
   /** RegularExpression Id. */
-  int S_BINARY_FORMAT1 = 109;
+  int S_BINARY_FORMAT1 = 110;
   /** RegularExpression Id. */
-  int S_BINARY_FORMAT2 = 110;
+  int S_BINARY_FORMAT2 = 111;
   /** RegularExpression Id. */
-  int S_HEX_DIGIT = 111;
+  int S_HEX_DIGIT = 112;
   /** RegularExpression Id. */
-  int S_BIT_FORMAT1 = 112;
+  int S_BIT_FORMAT1 = 113;
   /** RegularExpression Id. */
-  int S_BIT_FORMAT2 = 113;
+  int S_BIT_FORMAT2 = 114;
 
   /** Lexical state. */
   int DEFAULT = 0;
@@ -241,6 +241,7 @@ public interface SQLParserConstants {
     "\"\\n\"",
     "<S_LINE_COMMENT>",
     "<S_MULTI_LINE_COMMENT>",
+    "\"DELIMITER\"",
     "\"TODO\"",
     "\"USE\"",
     "\"CREATE\"",
